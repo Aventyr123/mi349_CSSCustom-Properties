@@ -1,13 +1,20 @@
 :root{ 
     --main-color: #215a16;
     --colorone: red;
-    --main-bg: rgb(19, 17, 17);
-    -ms-text-size-adjust: medium;
+    --main-bg: rgb(71, 6, 31);
+    --fontsize: medium;
     --header-height: 68px;
     --content-padding: 10px 20px;
 }
 
 body{
     color: var(--main-color);
+    background-color: var(--main-bg);
+    font-size: var(--fontsize);
+    padding: var(--content-padding);
 }
 
+h1{
+    color:var(--colorone);
+    height: var(--header-height);
+}
