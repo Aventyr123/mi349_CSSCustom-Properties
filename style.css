@@ -1,6 +1,7 @@
 :root{ 
     --main-color: #215a16;
     --colorone: red;
+    --colortwo: white;
     --main-bg: rgb(10, 116, 202);
     --fontsize: medium;
     --header-height: 68px;
@@ -8,7 +9,6 @@
 }
 
 body{
-    color: var(--main-color);
     background-color: var(--main-bg);
     font-size: var(--fontsize);
     padding: var(--content-padding);
@@ -17,4 +17,12 @@ body{
 h1{
     color:var(--colorone);
     height: var(--header-height);
+}
+
+#one{
+    color:var(--colorone)
+}
+
+#two{
+    color: var(--colortwo);
 }
